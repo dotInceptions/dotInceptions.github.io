@@ -81,10 +81,13 @@ nav a i { vertical-align: text-top !important;}
 .nav-container {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 .nav-item {
 	width: 50%;
 	height: auto;
+	align-items: center;
+	text-align: center;
 }
 header .container {
 	padding: 0;
