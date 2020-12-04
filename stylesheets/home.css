@@ -76,7 +76,13 @@ section {
 .container { width: 940px;}
 
 nav a i { vertical-align: text-top !important;}
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+}
+.nav-item {
 
+}
 header .container {
 	padding: 0;
 	width: 840px;
@@ -127,4 +133,3 @@ footer {
 footer a {
 	color: #9D9BA0;
 }
-
