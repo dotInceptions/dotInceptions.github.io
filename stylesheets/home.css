@@ -80,8 +80,6 @@ nav a i { vertical-align: text-top !important;}
 .nav-container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	flex-wrap: no-wrap;
 }
 .nav-item {
 	width: 50%;
