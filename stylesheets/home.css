@@ -1,86 +1,55 @@
 :root {
-    --prm-bg: #00A6CE;
-    --sec-bg: #57565A;
-    --ter-bg: #32292F;
+	--prm-bg: #00A6CE;
+	--sec-bg: #57565A;
+	--ter-bg: #32292F;
 }
 body {
-  font-family: Roboto;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #fff;
-  color: var(--sec-bg);
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 20px;
+	background-color: #fff;
+	color: var(--sec-bg);
 }
-
-p {
-  margin-bottom: 13px;
-}
+p {	margin-bottom: 13px;}
 
 #wrapper {
-  width: 100%;
-  margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .jumbotron {
-  background: none;
-  text-align: center;
-  padding-top: 60px;
-  padding-bottom: 100px;
-  margin-bottom: 0;
+	background: none;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	margin-bottom: 0;
 }
-.jumbotron h1 {
-  font-weight: 400;
-}
+.jumbotron h1 { font-weight: 400;}
 .jumbotron p {
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 4rem;
-  padding: 8px;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 4rem;
+	padding: 8px;
 }
-
-.container {
-  width: 940px;
-}
-footer {
-    background-color: var(--ter-bg);
-    color: #9D9BA0;
-    text-align: center;
-    padding: 80px;
-    font-size: 16px;
-}
-footer a {
-  color: #9D9BA0;
-}
-
+.muted { color: #9D9BA0 !important;}
 .fa {
-  vertical-align: middle;
-  margin-right: 2px;
+	vertical-align: middle;
+	margin-right: 2px;
 }
-
-a {
-  color: #9D9BA0;
-}
+a {	color: #9D9BA0;}
 a:hover,
 a.active,
 a:active {
-  color: var(--prm-bg);
+	color: var(--prm-bg);
 }
-
-.muted {
-	color: #9D9BA0 !important;
-}
-
 h1, h2, h3, h4 {
 	margin-top: 10px;
 	margin-bottom: 5px;
 	font-weight: 700;
 	font-family: 'Roboto Condensed';
 }
-h3 {
-	font-size: 28px;
-}
-h2 {
-	font-size: 36px;
-}
+h3 {	font-size: 28px;}
+h2 {	font-size: 36px;}
 
 .bg-gray {
 	background: var(--sec-bg) !important;
@@ -100,15 +69,14 @@ h2 {
 	background-color: var(--prm-bg);
 	box-shadow: 2px 2px 3px rgba(0,0,0, .2);
 }
-
 section {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+.container { width: 940px;}
 
-nav a i {
-	vertical-align: text-top !important;
-}
+nav a i { vertical-align: text-top !important;}
+
 header .container {
 	padding: 0;
 	width: 840px;
@@ -124,12 +92,10 @@ header {
 	-o-transition: height 0.3s;
 	transition: height 0.3s;
 }
-
 header nav {
 	display: inline-block;
 	text-transform: uppercase;
 }
-
 header nav a {
 	padding: 20px;
 	font-weight: 500;
@@ -140,11 +106,10 @@ header nav a {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
-
-header nav a, header nav a:visited {
+header nav a,
+header nav a:visited {
 	color: #666;
 }
-
 header nav li {
 	float: left;
 	display: inline-block;
@@ -152,3 +117,14 @@ header nav li {
 	line-height: 85px;
 	vertical-align: middle;
 }
+footer {
+	background-color: var(--ter-bg);
+	color: #9D9BA0;
+	text-align: center;
+	padding: 80px;
+	font-size: 16px;
+}
+footer a {
+	color: #9D9BA0;
+}
+
