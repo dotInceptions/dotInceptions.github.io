@@ -69,6 +69,10 @@ h2 {	font-size: 36px;}
 	background-color: var(--prm-bg);
 	box-shadow: 2px 2px 3px rgba(0,0,0, .2);
 }
+.svc-desc {
+	display: flex;
+	flex-wrap:nowrap;
+}
 .svc-clm { max-width: 400px;}
 section {
 	padding-top: 50px;
