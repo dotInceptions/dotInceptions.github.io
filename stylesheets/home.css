@@ -78,10 +78,10 @@ section {
 nav a i { vertical-align: text-top !important;}
 .nav-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 .nav-item {
-	width: 50%;
+	width: 25%;
 	height: auto;
 }
 header .container {
