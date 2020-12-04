@@ -81,7 +81,8 @@ nav a i { vertical-align: text-top !important;}
 	justify-content: space-between;
 }
 .nav-item {
-
+	width: 50%;
+	height: auto;
 }
 header .container {
 	padding: 0;
