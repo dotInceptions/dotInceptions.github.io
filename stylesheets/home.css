@@ -78,8 +78,7 @@ section {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
-/*.container { width: 940px;}*/
-.container { width: 100%;}
+.container { width: 940px;}
 
 nav a i { vertical-align: text-top !important;}
 .nav-container {
